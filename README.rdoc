@@ -7,6 +7,8 @@ e.g. Play a cool sound or operate some locally connected gadget on build success
 = Usage
 
    $ build_notifier start
+   $ build_notifier start -d # detach from terminal
+   $ build_notifier stop
 
 Remote triggers
 
