@@ -10,9 +10,9 @@ class BuildNotifier < Sinatra::Base
   get "/build/:status" do
     case params[:status]
     when 'success'
-      "Build succeeded"
+      `afplay ~/Library/Sounds/railscasts.aiff -v 6`
     when 'failure'
-      "Build failed"
+      `afplay ~/Library/Sounds/qi.aiff -v 6`
     end
   end 
  
