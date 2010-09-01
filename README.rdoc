@@ -13,7 +13,7 @@ e.g. Play a cool sound or operate some locally connected gadget on build success
 Remote triggers
 
    GET http://localhost:2003/build/success
-   GET http://localhost:3000/build/failure
+   GET http://localhost:2003/build/failure
 
 == Note on Patches/Pull Requests
  
