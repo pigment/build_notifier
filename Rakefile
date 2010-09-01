@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "build_notifier"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = "Local notifications of builds."
+    gem.description = "Accept local notifications of builds from remote continuous integration servers such as Hudson or Cruise Control."
     gem.email = "sam@samoliver.com"
     gem.homepage = "http://github.com/samoli/build_notifier"
     gem.authors = ["Sam Oliver"]

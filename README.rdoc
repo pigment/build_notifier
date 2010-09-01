@@ -1,6 +1,17 @@
 = build_notifier
 
-Description goes here.
+A skinny daemon for receiving local notifications of builds from remote continuous integration servers such as Hudson or Cruise Control.
+
+e.g. Play a cool sound or operate some locally connected gadget on build success / failure.
+
+= Usage
+
+   $ build_notifier start
+
+Remote triggers
+
+   GET http://localhost:2003/build/success
+   GET http://localhost:3000/build/failure
 
 == Note on Patches/Pull Requests
  
